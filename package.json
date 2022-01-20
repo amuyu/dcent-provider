@@ -1,5 +1,5 @@
 {
-  "name": "@amuyu/dcent-provider-es5",
+  "name": "@amuyu/dcent-provider",
   "version": "0.0.2",
   "description": "D'CENT Provider wrapping Dcent Web Connector",
   "main": "src/index.js",
