@@ -4,3 +4,4 @@ example
 node_modules
 src/dcent-connector/__mocks__
 tests
+lib

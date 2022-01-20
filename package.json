@@ -1,16 +1,17 @@
 {
-  "name": "dcent-provider",
-  "version": "0.3.0-beta",
+  "name": "@amuyu/dcent-provider-es5",
+  "version": "0.0.1",
   "description": "D'CENT Provider wrapping Dcent Web Connector",
   "main": "src/index.js",
   "scripts": {
+    "compile": "babel lib --out-dir src",
     "build-dev": "webpack --mode development",
     "build": "webpack --mode production",
     "test": "jest --config tests/jest.conf.js --detectOpenHandles --coverage --forceExit --runInBand"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DcentWallet/dcent-provider.git"
+    "url": "git+https://github.com/amuyu/dcent-provider.git"
   },
   "keywords": [
     "D'CENT",
@@ -27,9 +28,10 @@
     "web3",
     "ethereum"
   ],
-  "homepage": "https://github.com/DcentWallet/dcent-provider#readme",
+  "homepage": "https://github.com/amuyu/dcent-provider#readme",
   "author": "IoTrust Co. Ltd.,",
   "devDependencies": {
+    "@babel/cli": "^7.16.8",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.9.4",
@@ -52,6 +54,6 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DcentWallet/dcent-provider/issues"
+    "url": "https://github.com/amuyu/dcent-provider/issues"
   }
 }
